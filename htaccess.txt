@@ -1,0 +1,4 @@
+RewriteEngine On
+Options All -Indexes //prohibir acceso al index de archivos
+RewriteRule ^([a-zA-Z0-9/ñÑ-])+$ index.php?views=$1 // Regla de tipeo en index php letras numero, - y /; todo lo que vengas despues de la url va ser una variable views y permitir solo aaracteres
+ 

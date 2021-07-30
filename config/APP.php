@@ -1,16 +1,8 @@
 <?php
+	const SERVERURL="http://localhost/sigeosbdi/";
 
-//CONFIGURACIONES GLOBALES DEL SISTEMA
+	const COMPANY="Intelco";
 
-    const SERVERURL="http://localhost/sigeosbdi/"; //Url hosting o localhost
+	const MONEDA="$";
 
-    const COMPANY="Intelco"; //Nombre Empresa
-
-    const MONEDA="$"; //Simbolo moneda
-
-    date_default_timezone_set("America/Bogota");//Zona Horaria Bogota- Colombia
-
-
-
-
-
+	date_default_timezone_set("America/Bogota");

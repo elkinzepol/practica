@@ -8,8 +8,8 @@
 
     const SGBD="mysql:host=".SERVER.";dbname=".DB;
 
+    //Encriptacion
 
-    const METHOD="AES-256-CBC"; //Encriptacion
-    const SECRET_KEY='$BDISIGEOS@2021';
-    CONST SECRET_IV='';
-
+    const METHOD="AES-256-CBC"; 
+    const SECRET_KEY='$SIGEOSBDI@2021';
+    CONST SECRET_IV='232812';
